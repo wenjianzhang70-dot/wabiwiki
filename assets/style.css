@@ -1,0 +1,30 @@
+:root{--ink:#1c2333;--mut:#5a6478;--acc:#6c4bd8;--acc2:#efeaff;--line:#e5e2f2;--bg:#faf9fd}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.65}
+a{color:var(--acc);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:860px;margin:0 auto;padding:0 18px}
+header.site{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+header.site .wrap{display:flex;align-items:center;gap:18px;padding:12px 18px}
+.logo{font-weight:800;font-size:20px;color:var(--ink)}.logo span{color:var(--acc)}
+nav.main{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap;font-size:14px}
+nav.main a{color:var(--ink)}
+main{padding:28px 0 10px}
+h1{font-size:30px;line-height:1.25;margin:6px 0 12px}
+h2{font-size:22px;margin:30px 0 10px}
+h3{font-size:17px;margin:20px 0 6px}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:14px 0}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.facts div{background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.facts b{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--mut)}
+.warn{background:#fff7e8;border:1px solid #f0d9a0;border-radius:12px;padding:14px 18px;margin:14px 0}
+table{border-collapse:collapse;width:100%;margin:12px 0;background:#fff}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;font-size:15px}
+th{background:var(--acc2)}
+code,.prompt{background:#f1efff;border-radius:8px;padding:10px 12px;display:block;margin:8px 0;font-size:14.5px;white-space:pre-wrap}
+.btn{display:inline-block;background:var(--acc);color:#fff;padding:10px 18px;border-radius:10px;font-weight:600}
+.btn:hover{text-decoration:none;opacity:.92}
+.small{font-size:13px;color:var(--mut)}
+footer.site{border-top:1px solid var(--line);margin-top:36px;background:#fff}
+footer.site .wrap{padding:20px 18px 30px;font-size:13.5px;color:var(--mut)}
+footer.site nav{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:10px}
+ul{padding-left:20px}li{margin:4px 0}
+.tag{display:inline-block;background:var(--acc2);color:var(--acc);border-radius:20px;padding:2px 10px;font-size:12.5px;font-weight:600}
